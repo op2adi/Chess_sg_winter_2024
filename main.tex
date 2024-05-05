@@ -1,0 +1,214 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{geometry}
+\geometry{left=3cm,right=3cm,top=2.5cm,bottom=2cm,headheight=50pt, headsep=10pt} % Adjust 'headheight' and 'headsep' as needed
+\usepackage{booktabs}  % For prettier tables
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\usepackage{tabularx}
+\usepackage{graphicx} % Required for including images
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} 
+\usepackage{xcolor} % For background color
+\usepackage{pagecolor} % To set the page color
+\definecolor{lightblue}{RGB}{219, 249, 253} % Define light blue color
+\pagecolor{lightblue} % Set the background color for all pages
+
+
+\definecolor{headercolor}{rgb}{0.2, 0.4, 0.6}
+\definecolor{footercolor}{rgb}{0.1, 0.3, 0.5}
+\definecolor{linkcolor}{gray}{0.8}  % Grey color for the links
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=false,    % Set to false to disable coloring of links
+    urlcolor=black,      % Color of external links
+    pdfborder={0 0 0},   % No borders around links
+    urlbordercolor=linkcolor,  % Border color set to light grey
+}
+
+\usepackage{titlesec}  % Seems you are using title formatting but didn't include this package in your initial snippet
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+\rhead{\includegraphics[width=6cm]{iiitd_logo.png}}
+\fancyhead[L]{\textcolor{headercolor}{Self Development in Strategic Games 2024 Winter Session}}
+\rfoot{Page \thepage}
+\fancyfoot[C]{\textcolor{footercolor}{Indraprastha Institute of Information Technology, Delhi}}
+
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+        \Huge
+        \textbf{Project Report}
+
+        \vspace{0.5cm}
+        \LARGE
+        Self Growth in Chess
+
+        \vspace{1.5cm}
+
+        \textbf{ADITYA UPADHYAY}
+
+        \textbf{Self Growth}\\
+        Category: Self Growth\\
+        Roll Number: 2022040\\
+        Email: \href{mailto:aditya22040@iiitd.ac.in}{aditya22040@iiitd.ac.in}\\
+        Semester: 2024 Winter\\
+        Title of the Project: Self Growth in Chess\\
+        Starting Date: 16/01/2024\\
+        Ending Date: 28/04/2024\\
+        Organization Name: The 65th Square\\
+        Organization Details: Club at IIITD\\
+        Supervisor at Organization: Chirag Banka\\
+        Supervisor Contact: \href{mailto:the65thsquare@sc.iiitd.ac.in}{the65thsquare@sc.iiitd.ac.in}\\
+        Number of Credits: 2\\
+        Number of Hours: 87\\
+        Certificate Link: \href{https://drive.google.com/file/d/1VAABHvdASUJuy2gwAWaEtlJd9aoCkC7B/view?usp=drive_link}{aditya\_certificate}
+
+        \vfill
+        
+        A report presented for the fulfillment of\\
+        the requirements of the Self Growth category
+        
+        \vspace{0.8cm}
+        
+        \Large
+        The 65th Square\\
+        Indraprastha Institute of Information Technology, Delhi\\
+        April 30, 2024
+
+    \end{center}
+\end{titlepage}
+
+\section{Introduction}
+\textbf{Chess is a two-player strategy game with a long history, likely originating in ancient India. The objective is to checkmate the opponent's king, putting it in unavoidable danger of capture. The game is played on an 8x8 checkered board with 16 pieces each for white and black. Each piece has its own unique movement pattern, and capturing an enemy piece involves moving to its square. Turns are alternated, with white always starting first. Chess is a game of pure strategy, with no hidden information or chance involved.}
+
+\section{Objectives}
+\begin{itemize}
+    \item Master Chess Fundamentals and Notation: Understand and apply basic chess rules, piece movements, and special moves such as castling, en passant, and pawn promotion. Achieve proficiency in reading and writing chess notation, essential for analyzing games and communicating with other players.
+    \item Develop Tactical and Strategic Thinking: Learn and implement fundamental chess tactics and checkmate patterns. Improve strategic thinking by studying opening principles, middle-game planning, and endgame techniques such as opposition, key squares, and triangulation.
+    \item Enhance Positional Evaluation Skills: Gain the ability to evaluate chess positions accurately and develop candidate moves. Understand the importance of pawn structure, the coordination of pieces, and the dynamics of the position. Foster decision-making skills related to exchanging pieces and transitioning into favorable endgames.
+    \item Apply Theoretical Knowledge in Practical Play: Apply learned theories and strategies in real games through regular playing sessions, including practicing different openings, employing mid-game strategies, and navigating complex endgames.
+    \item Adaptability and In-depth Understanding of Advanced Concepts: Learn advanced chess concepts such as gambits in pawn play, the role of bishops and knights in various positions, and specific tactics like placing a rook on the seventh rank. Enhance adaptability to various chess positions and deepen understanding through analysis of advanced strategies.
+\end{itemize}
+
+\section{Activities and Learning}
+\begin{itemize}
+    \item \textbf{Introductory Session:}
+    \begin{itemize}
+        \item Overview of the course.
+        \item Chess rules and notation: Piece movement, castling, en passant, promotion, and illegal moves.
+        \item Introduction to basic tactics and the importance of tactics.
+        \item Fundamental checkmates.
+    \end{itemize}
+
+    \item \textbf{Opening Principles:}
+    \begin{itemize}
+        \item Discussion of opening theory with 1-2 illustrative games.
+        \item Techniques for 1-2 piece checkmates involving Queen, Rook, and double Rooks.
+        \item Exploration of additional basic tactics.
+    \end{itemize}
+
+    \item \textbf{Transition to Middle Game:}
+    \begin{itemize}
+        \item Continued discussion on opening principles with 1-2 games.
+        \item Analysis of games to understand mid-game plans and strategies.
+    \end{itemize}
+
+    \item \textbf{Pawn Endings:}
+    \begin{itemize}
+        \item Techniques like opposition, the rule of the square, and key squares.
+        \item Concepts of waiting moves with multiple pawns and triangulation.
+        \item Practical playing session focusing on pawn endgames.
+    \end{itemize}
+
+    \item \textbf{Advanced Thinking Strategies:}
+    \begin{itemize}
+        \item Evaluating chess positions and determining candidate moves.
+        \item Discussion on pawn and piece coordination.
+        \item Playing sessions to apply learned strategies.
+    \end{itemize}
+
+    \item \textbf{Endgame Preparation and Strategy:}
+    \begin{itemize}
+        \item Strategies for exchanging pieces effectively.
+        \item Transition strategies from middle game to endgame.
+        \item Techniques for detecting strategic ideas during play.
+        \item Playing sessions to reinforce concepts.
+    \end{itemize}
+
+    \item \textbf{Exploring Gambits and Advanced Pawn Play:}
+    \begin{itemize}
+        \item Study of various gambits and their underlying theories.
+    \end{itemize}
+
+    \item \textbf{Complex Piece Dynamics:}
+    \begin{itemize}
+        \item Handling positions with double bishops, bishop versus knight, and opposite color bishops.
+        \item Strategic placement and potential of the rook on the seventh rank. Just Loved itr 
+    \end{itemize}
+\end{itemize}
+
+
+\section*{Weekly Log}
+
+\noindent
+\begin{tabularx}{\textwidth}{lXrX}
+\toprule
+\textbf{Week} & \textbf{Date} & \textbf{Hours} & \textbf{Activity/Progress} \\
+\midrule
+Week 1 & 22 Jan - 28 Jan & 5 hours & Learning Openings and offline tournament \\
+Week 2 & 29 Jan - 04 Feb & 7.5 hours & Lecture, offline tournament and online tournament \\
+Week 3 & 5 Feb - 11 Feb & 7.5 hours & Lecture, offline tournament and online tournament \\
+Week 4 & 11 Feb - 17 Feb & 10 hours & Lecture, offline tournament and 2 online tournaments \\
+Week 5 & 11 Feb - 17 March & 2.5 hours & Online tournament \\
+Week 6 & 1 April - 7 April & 10 hours & Lecture, offline tournament and 2 online tournaments \\
+Week 7 & 8 April - 14 April & 7.5 hours & Lecture, offline tournament and online tournament \\
+Week 8 & 15 April - 21 April & 7.5 hours & 2 online tournaments \\
+Week 9 & 22 April - 28 April & 20 hours & Lecture, offline tournament, 2 online tournaments, quiz and assignment \\
+\bottomrule
+\end{tabularx}
+
+\vspace{10pt}
+\noindent \textbf{Total Working Hours:} 77.5 Hours + 7 Hours (Personal Games) + 2.5 Hours (Puzzle Storm) = 87 Hours
+
+\section{Achievements}
+\begin{itemize}
+    \item Enhance strategic thinking through chess.
+    \item Achieve a rating improvement on lichess.org.
+    \item Engage in competitive and training sessions.
+    \item New rating 1783* in Blitz.
+    \item Puzzle Rating 1246*.
+    \item Increased my efficiency in Knight Forks.
+    \item Learnt a lot about chess.
+\end{itemize}
+
+\section{Conclusion and Future Work}
+
+This project, "Self Growth in Chess," has successfully met the educational objectives set out at its inception. Over the course of the semester, we explored a comprehensive curriculum designed to enhance both tactical and strategic understanding of chess. From mastering the basic rules and notations to delving into complex endgame strategies, the progress made has been substantial and measurable.
+
+Significant achievements include a deeper understanding of opening principles, effective pawn play, and the nuances of piece coordination. The strategic exercises and tournament participation have not only solidified my theoretical knowledge but also sharpened my practical skills, as evidenced by improvements in my competitive ratings and problem-solving abilities.
+
+Looking ahead, there is ample room for further development. Future work will focus on three main areas:
+\begin{itemize}
+    \item \textbf{Advanced Strategic Play:} While foundational strategies have been mastered, more complex scenarios and advanced tactics remain areas for growth. Participating in higher-level tournaments and undergoing rigorous peer reviews will be essential.
+    \item \textbf{Regular Analysis of Games:} To sustain improvement, a systematic approach to analyzing personal game play and that of higher-ranked players will be adopted. This will include a detailed study of game recordings, with a focus on identifying and learning from critical moves and mistakes.
+    \item \textbf{Mental and Psychological Training:} Chess is not only a test of intelligence and skill but also of patience and mental endurance. Incorporating psychological training and stress management into my routine will enhance performance, particularly in longer formats.
+\end{itemize}
+
+In conclusion, the "Self Growth in Chess" project has laid a solid foundation for becoming a more proficient and strategic player. The journey ahead is promising, and with continued dedication and strategic insight, there is a clear path toward achieving higher levels of mastery in chess.
+\vfill % Pushes the content below to the bottom of the page
+\begin{flushright}
+    \textbf{Signature:}\\
+\end{flushright}
+
+
+\end{document}
